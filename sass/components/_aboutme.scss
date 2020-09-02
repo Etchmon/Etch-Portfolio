@@ -1,0 +1,17 @@
+.about-me {
+    height: 100vh;
+    padding: 20rem;
+
+    &__name {
+        font-size: 3rem;
+    }
+
+    &__title {
+        font-size: 6rem;
+    }
+
+    &__paragraph {
+        font-size: 2rem;
+        width: 60%;
+    }
+}
