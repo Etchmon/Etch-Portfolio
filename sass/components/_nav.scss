@@ -1,0 +1,32 @@
+.nav {
+    text-align: center;
+    height: 100%;
+
+    &__logo {
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__list {
+        list-style: none;
+        
+    }
+
+    &__item {
+        margin-bottom: .5rem;
+    }
+
+    &__link:link,
+    &__link:visited {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        display: block;
+        padding: 1.5rem 3rem;
+        position: relative;
+        z-index: 100;
+    }
+}

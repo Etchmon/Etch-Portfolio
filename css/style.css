@@ -132,6 +132,28 @@ body {
     display: flex;
     justify-content: space-evenly; }
 
+.nav {
+  text-align: center;
+  height: 100%; }
+  .nav__logo {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .nav__list {
+    list-style: none; }
+  .nav__item {
+    margin-bottom: .5rem; }
+  .nav__link:link, .nav__link:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.5rem 3rem;
+    position: relative;
+    z-index: 100; }
+
 .footer {
   text-align: center; }
   .footer__details {
@@ -179,7 +201,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: url(./../../img/port-pic.jpg);
+  background-image: linear-gradient(to right bottom, rgba(1, 25, 38, 0.5), rgba(1, 25, 38, 0.5)), url(./../../img/port-pic.jpg);
   background-size: cover;
   background-position: 50% 50%; }
   .header__name {
@@ -208,7 +230,7 @@ body {
   vertical-align: top;
   height: 100%;
   width: 12%;
-  background-color: aquamarine; }
+  background-color: #011926; }
 
 .content {
   display: inline-block;
@@ -217,7 +239,7 @@ body {
   width: 88%;
   overflow: auto; }
 
-.main-content {
+.main--content {
   min-height: 100%; }
 
 .section--about {
