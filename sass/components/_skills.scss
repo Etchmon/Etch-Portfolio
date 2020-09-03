@@ -1,0 +1,17 @@
+.skills {
+    padding: 20rem;
+    height: 90vh;
+
+
+    &__name {
+        font-size: 6rem;
+    }
+
+    &__columns {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2rem;
+        width: 60%;
+        font-size: 1.5rem;
+    }
+}
