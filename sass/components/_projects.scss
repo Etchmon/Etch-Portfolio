@@ -1,0 +1,35 @@
+.projects {
+    min-height: 90vh;
+    padding: 10rem 20rem;
+
+    &--name {
+        font-size: 6rem;
+        color: green;
+    }
+
+    &--box {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.card {
+    display: flex;
+    padding: 8rem 0;
+
+    &__picture {
+        height: 30rem;
+        width: 100%;
+    }
+
+    &__info {
+        text-align: center;
+        margin: 0 2rem;
+        padding: 2rem 5rem;
+    }
+
+    &__heading {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+}

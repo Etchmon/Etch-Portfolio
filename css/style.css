@@ -97,6 +97,30 @@ body {
     width: 60%;
     font-size: 1.5rem; }
 
+.projects {
+  min-height: 90vh;
+  padding: 10rem 20rem; }
+  .projects--name {
+    font-size: 6rem;
+    color: green; }
+  .projects--box {
+    display: flex;
+    flex-direction: column; }
+
+.card {
+  display: flex;
+  padding: 8rem 0; }
+  .card__picture {
+    height: 30rem;
+    width: 100%; }
+  .card__info {
+    text-align: center;
+    margin: 0 2rem;
+    padding: 2rem 5rem; }
+  .card__heading {
+    margin-bottom: 2rem;
+    font-size: 3rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
