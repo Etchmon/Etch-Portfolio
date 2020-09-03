@@ -120,6 +120,15 @@ body {
   .card__heading {
     margin-bottom: 2rem;
     font-size: 3rem; }
+  .card__tech {
+    font-size: 2rem; }
+  .card__list {
+    list-style: none; }
+    .card__list li {
+      margin-top: 0.25rem; }
+  .card__links {
+    display: flex;
+    justify-content: space-evenly; }
 
 .row {
   max-width: 114rem;
