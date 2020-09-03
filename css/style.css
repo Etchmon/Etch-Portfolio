@@ -179,11 +179,26 @@ body {
 
 .header {
   height: 100vh;
-  padding-left: 55%;
-  padding-top: 15%;
   background-image: url(./../../img/port-pic.jpg);
   background-size: cover;
   background-position: 50% 50%; }
+  .header__name {
+    font-size: 8rem;
+    line-height: 1; }
+  .header__title {
+    font-size: 2rem;
+    margin-bottom: 5rem; }
+  .header__box {
+    text-align: center;
+    padding: 15rem 0 25rem 30%; }
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 20rem;
+    list-style: none; }
+    .header__nav--link {
+      text-decoration: none;
+      font-size: 1.5rem; }
 
 .container {
   height: 100%; }
