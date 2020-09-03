@@ -112,13 +112,15 @@ body {
   padding: 8rem 0; }
   .card__picture {
     height: 30rem;
-    width: 100%; }
+    width: 100%;
+    background-image: url(./../../img/divedeep.png);
+    background-size: cover;
+    background-position: 50% 50%; }
   .card__info {
     text-align: center;
     margin: 0 2rem;
     padding: 2rem 5rem; }
   .card__heading {
-    margin-bottom: 2rem;
     font-size: 3rem; }
   .card__tech {
     font-size: 2rem; }
@@ -129,6 +131,11 @@ body {
   .card__links {
     display: flex;
     justify-content: space-evenly; }
+
+.footer {
+  text-align: center; }
+  .footer__details {
+    padding: 10rem; }
 
 .row {
   max-width: 114rem;
@@ -175,7 +182,8 @@ body {
   padding-left: 55%;
   padding-top: 15%;
   background-image: url(./../../img/port-pic.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: 50% 50%; }
 
 .container {
   height: 100%; }
