@@ -146,7 +146,12 @@ body {
     height: 30%;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    font-size: 5rem; }
+    .nav__logo span {
+      padding: 3rem;
+      background-color: #007BB8;
+      font-style: italic; }
   .nav__list {
     list-style: none; }
   .nav__item {
@@ -181,6 +186,24 @@ body {
   color: #ffff; }
   .footer__details {
     padding: 10rem; }
+    .footer__details span {
+      font-size: 3rem;
+      background-color: #007BB8;
+      font-style: italic;
+      padding: 1.5rem;
+      line-height: 3; }
+  .footer__nav {
+    display: flex;
+    justify-content: center;
+    list-style: none; }
+  .footer__item {
+    position: relative;
+    margin: 0 2rem; }
+  .footer__link:link, .footer__link:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem; }
 
 .row {
   max-width: 114rem;
