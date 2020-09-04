@@ -127,24 +127,15 @@ body {
   display: flex;
   padding: 8rem 0; }
   .card__picture {
-    height: 30rem;
-    width: 100%; }
-    .card__picture--1 {
-      background-image: url(./../../img/tanookijames.png);
-      background-size: cover;
-      background-position: 50% 50%; }
-    .card__picture--2 {
-      background-image: url(./../../img/ucsdcookbook.herokuapp.com_home.html.png);
-      background-size: cover;
-      background-position: 50% 50%; }
-    .card__picture--3 {
-      background-image: url(./../../img/divedeep.png);
-      background-size: cover;
-      background-position: 50% 50%; }
+    height: auto;
+    width: 50%; }
+    .card__picture img {
+      height: 100%;
+      width: 100%; }
   .card__info {
     text-align: center;
-    margin: 0 2rem;
-    padding: 2rem 5rem; }
+    margin-left: 2rem;
+    width: 50%; }
   .card__heading {
     font-size: 3rem;
     font-family: 'Merriweather', serif; }

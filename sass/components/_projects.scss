@@ -22,32 +22,20 @@
     padding: 8rem 0;
 
     &__picture {
-        height: 30rem;
-        width: 100%;
+        height: auto;
+        width: 50%;
 
-        &--1 {
-            background-image: url(./../../img/tanookijames.png);
-            background-size: cover;
-            background-position: 50% 50%;
+        img {
+            height: 100%;
+            width: 100%;
         }
 
-        &--2 {
-            background-image: url(./../../img/ucsdcookbook.herokuapp.com_home.html.png);
-            background-size: cover;
-            background-position: 50% 50%;
-        }
-
-        &--3 {
-            background-image: url(./../../img/divedeep.png);
-            background-size: cover;
-            background-position: 50% 50%;
-        }
     }
 
     &__info {
         text-align: center;
-        margin: 0 2rem;
-        padding: 2rem 5rem;
+        margin-left: 2rem;
+        width: 50%;
     }
 
     &__heading {
