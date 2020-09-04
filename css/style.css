@@ -81,11 +81,14 @@ body {
   box-shadow: 0 3rem 5rem #007BB8;
   background-image: linear-gradient(to right, rgba(1, 25, 38, 0.8), rgba(1, 25, 38, 0.8)); }
   .about-me__name {
-    font-size: 3rem; }
+    font-size: 3rem;
+    font-family: 'Merriweather', serif; }
   .about-me__title {
-    font-size: 6rem; }
+    font-size: 6rem;
+    font-family: 'Merriweather', serif; }
   .about-me__paragraph {
-    font-size: 2rem; }
+    font-size: 2rem;
+    font-family: 'Mulish', sans-serif; }
 
 .skills {
   width: 50vw;
@@ -94,13 +97,15 @@ body {
   box-shadow: 0 3rem 5rem #007BB8;
   background-image: linear-gradient(to right, rgba(0, 62, 92, 0.8), rgba(0, 62, 92, 0.8)); }
   .skills__name {
-    font-size: 6rem; }
+    font-size: 6rem;
+    font-family: 'Merriweather', serif; }
   .skills__columns {
     display: flex;
     justify-content: space-between;
     margin-left: 2rem;
     width: 60%;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    font-family: 'Mulish', sans-serif; }
 
 .projects {
   width: 50vw;
@@ -109,7 +114,8 @@ body {
   box-shadow: 0 3rem 5rem #007BB8;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)); }
   .projects--name {
-    font-size: 6rem; }
+    font-size: 6rem;
+    font-family: 'Merriweather', serif; }
   .projects--box {
     display: flex;
     flex-direction: column; }
@@ -128,14 +134,18 @@ body {
     margin: 0 2rem;
     padding: 2rem 5rem; }
   .card__heading {
-    font-size: 3rem; }
+    font-size: 3rem;
+    font-family: 'Merriweather', serif; }
   .card__tech {
-    font-size: 2rem; }
+    font-size: 2rem;
+    font-family: 'Mulish', sans-serif; }
   .card__list {
-    list-style: none; }
+    list-style: none;
+    font-family: 'Mulish', sans-serif; }
     .card__list li {
       margin-top: 0.25rem; }
   .card__links {
+    font-family: 'Mulish', sans-serif;
     display: flex;
     justify-content: space-evenly; }
 
@@ -151,9 +161,11 @@ body {
     .nav__logo span {
       padding: 3rem;
       background-color: #007BB8;
-      font-style: italic; }
+      font-style: italic;
+      font-family: 'Merriweather', serif; }
   .nav__list {
-    list-style: none; }
+    list-style: none;
+    font-family: 'Mulish', sans-serif; }
   .nav__item {
     margin-bottom: .5rem;
     position: relative; }
@@ -191,7 +203,8 @@ body {
       background-color: #007BB8;
       font-style: italic;
       padding: 1.5rem;
-      line-height: 3; }
+      line-height: 3;
+      font-family: 'Merriweather', serif; }
   .footer__nav {
     display: flex;
     justify-content: center;
@@ -250,10 +263,12 @@ body {
   border-bottom: solid 1px lightgrey; }
   .header__name {
     font-size: 8rem;
-    line-height: 1; }
+    line-height: 1;
+    font-family: 'Merriweather', serif; }
   .header__title {
     font-size: 2rem;
-    margin-bottom: 5rem; }
+    margin-bottom: 5rem;
+    font-family: 'Mulish', sans-serif; }
   .header__box {
     text-align: center;
     padding: 15rem 0 25rem 35%; }
@@ -261,7 +276,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 0 20rem;
-    list-style: none; }
+    list-style: none;
+    font-family: 'Mulish', sans-serif; }
     .header__nav--link {
       text-decoration: none;
       font-size: 1.5rem;

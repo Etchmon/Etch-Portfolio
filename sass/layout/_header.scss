@@ -5,11 +5,13 @@
     &__name {
         font-size: 8rem;
         line-height: 1;
+        font-family: 'Merriweather', serif;
     }
 
     &__title {
         font-size: 2rem;
         margin-bottom: 5rem;
+        font-family: 'Mulish', sans-serif;
     }
 
     &__box {
@@ -22,6 +24,7 @@
         justify-content: space-evenly;
         margin: 0 20rem;
         list-style: none;
+        font-family: 'Mulish', sans-serif;
 
         &--link {
             text-decoration: none;
