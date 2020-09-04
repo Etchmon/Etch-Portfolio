@@ -264,7 +264,8 @@ body {
   .header__name {
     font-size: 8rem;
     line-height: 1;
-    font-family: 'Merriweather', serif; }
+    font-family: 'Merriweather', serif;
+    letter-spacing: 5px; }
   .header__title {
     font-size: 2rem;
     margin-bottom: 5rem;
@@ -309,7 +310,8 @@ body {
   z-index: -10;
   background-image: linear-gradient(to right bottom, rgba(1, 25, 38, 0.6), rgba(1, 25, 38, 0.6)), url(./../../img/port-pic.jpg);
   background-size: cover;
-  background-position: 50% 50%; }
+  background-position: 50% 50%;
+  transform: translateX(-20rem); }
 
 .main-content {
   min-height: 100%; }
