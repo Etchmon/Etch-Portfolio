@@ -15,7 +15,19 @@
 	vertical-align: top;
 	height: 100%;
 	width: 88%;
-	overflow: auto;
+    overflow: auto;
+    color: white;
+}
+
+.content:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -10;
+    background-image: linear-gradient(to right bottom, rgba(#011926, 0.6), rgba(#011926, 0.6)), url(./../../img/port-pic.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .main-content {
@@ -31,16 +43,15 @@
 }
 
 .section--skills {
-    min-height: 90vh;
+    min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -10rem;
     border-bottom: solid 1px lightgrey;
 }
 
 .section--projects {
-    min-height: 200vh;
+    min-height: 235vh;
     display: flex;
     justify-content: center;
     align-items: center;

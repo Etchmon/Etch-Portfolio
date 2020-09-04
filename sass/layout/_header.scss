@@ -1,9 +1,6 @@
 .header {
     height: 100vh;
-
-    background-image: linear-gradient(to right bottom, rgba(#011926, 0.5), rgba(#011926, 0.5)), url(./../../img/port-pic.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+    border-bottom: solid 1px lightgrey;
 
     &__name {
         font-size: 8rem;
@@ -17,7 +14,7 @@
 
     &__box {
         text-align: center;
-        padding: 15rem 0 25rem 30%;
+        padding: 15rem 0 25rem 35%;
     }
 
     &__nav {
@@ -29,6 +26,7 @@
         &--link {
             text-decoration: none;
             font-size: 1.5rem;
+            color: white;
         }
     }
 }

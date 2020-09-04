@@ -75,17 +75,24 @@ body {
   margin-top: 10rem !important; }
 
 .about-me {
-  width: 50vw; }
+  width: 50vw;
+  padding: 3rem;
+  border-radius: 3rem;
+  box-shadow: 0 3rem 5rem #007BB8;
+  background-image: linear-gradient(to right, rgba(1, 25, 38, 0.8), rgba(1, 25, 38, 0.8)); }
   .about-me__name {
     font-size: 3rem; }
   .about-me__title {
     font-size: 6rem; }
   .about-me__paragraph {
-    font-size: 2rem;
-    width: 60%; }
+    font-size: 2rem; }
 
 .skills {
-  width: 50vw; }
+  width: 50vw;
+  padding: 3rem;
+  border-radius: 3rem;
+  box-shadow: 0 3rem 5rem #007BB8;
+  background-image: linear-gradient(to right, rgba(0, 62, 92, 0.8), rgba(0, 62, 92, 0.8)); }
   .skills__name {
     font-size: 6rem; }
   .skills__columns {
@@ -96,7 +103,11 @@ body {
     font-size: 1.5rem; }
 
 .projects {
-  width: 50vw; }
+  width: 50vw;
+  padding: 3rem;
+  border-radius: 3rem;
+  box-shadow: 0 3rem 5rem #007BB8;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)); }
   .projects--name {
     font-size: 6rem; }
   .projects--box {
@@ -139,7 +150,21 @@ body {
   .nav__list {
     list-style: none; }
   .nav__item {
-    margin-bottom: .5rem; }
+    margin-bottom: .5rem;
+    position: relative; }
+  .nav__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #3461b7;
+    transform: scaleY(0);
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s; }
+  .nav__item:hover::before, .nav__item--active::before {
+    transform: scaleY(1);
+    width: 100%; }
   .nav__link:link, .nav__link:visited {
     text-decoration: none;
     color: #fff;
@@ -199,9 +224,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(1, 25, 38, 0.5), rgba(1, 25, 38, 0.5)), url(./../../img/port-pic.jpg);
-  background-size: cover;
-  background-position: 50% 50%; }
+  border-bottom: solid 1px lightgrey; }
   .header__name {
     font-size: 8rem;
     line-height: 1; }
@@ -210,7 +233,7 @@ body {
     margin-bottom: 5rem; }
   .header__box {
     text-align: center;
-    padding: 15rem 0 25rem 30%; }
+    padding: 15rem 0 25rem 35%; }
   .header__nav {
     display: flex;
     justify-content: space-evenly;
@@ -218,7 +241,8 @@ body {
     list-style: none; }
     .header__nav--link {
       text-decoration: none;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      color: white; }
 
 .container {
   height: 100%; }
@@ -235,7 +259,18 @@ body {
   vertical-align: top;
   height: 100%;
   width: 88%;
-  overflow: auto; }
+  overflow: auto;
+  color: white; }
+
+.content:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -10;
+  background-image: linear-gradient(to right bottom, rgba(1, 25, 38, 0.6), rgba(1, 25, 38, 0.6)), url(./../../img/port-pic.jpg);
+  background-size: cover;
+  background-position: 50% 50%; }
 
 .main-content {
   min-height: 100%; }
@@ -248,15 +283,14 @@ body {
   border-bottom: solid 1px lightgrey; }
 
 .section--skills {
-  min-height: 90vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -10rem;
   border-bottom: solid 1px lightgrey; }
 
 .section--projects {
-  min-height: 200vh;
+  min-height: 235vh;
   display: flex;
   justify-content: center;
   align-items: center;
