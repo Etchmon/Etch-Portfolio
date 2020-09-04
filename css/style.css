@@ -78,8 +78,8 @@ body {
   width: 50vw;
   padding: 3rem;
   border-radius: 3rem;
-  box-shadow: 0 3rem 5rem #007BB8;
-  background-image: linear-gradient(to right, rgba(1, 25, 38, 0.8), rgba(1, 25, 38, 0.8));
+  box-shadow: 0 0 3rem #ffff;
+  background-image: linear-gradient(to right, rgba(0, 62, 92, 0.8), rgba(0, 62, 92, 0.8));
   margin: 8rem 0; }
   .about-me__name {
     font-size: 3rem;
@@ -95,7 +95,7 @@ body {
   width: 50vw;
   padding: 3rem;
   border-radius: 3rem;
-  box-shadow: 0 3rem 5rem #007BB8;
+  box-shadow: 0 0 3rem #ffff;
   background-image: linear-gradient(to right, rgba(0, 62, 92, 0.8), rgba(0, 62, 92, 0.8));
   margin: 8rem 0; }
   .skills__name {
@@ -113,8 +113,8 @@ body {
   width: 50vw;
   padding: 3rem;
   border-radius: 3rem;
-  box-shadow: 0 3rem 5rem #007BB8;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  box-shadow: 0 0 3rem #ffff;
+  background-image: linear-gradient(to right, rgba(0, 62, 92, 0.8), rgba(0, 62, 92, 0.8));
   margin: 8rem 0; }
   .projects--name {
     font-size: 6rem;
@@ -128,10 +128,19 @@ body {
   padding: 8rem 0; }
   .card__picture {
     height: 30rem;
-    width: 100%;
-    background-image: url(./../../img/divedeep.png);
-    background-size: cover;
-    background-position: 50% 50%; }
+    width: 100%; }
+    .card__picture--1 {
+      background-image: url(./../../img/tanookijames.png);
+      background-size: cover;
+      background-position: 50% 50%; }
+    .card__picture--2 {
+      background-image: url(./../../img/ucsdcookbook.herokuapp.com_home.html.png);
+      background-size: cover;
+      background-position: 50% 50%; }
+    .card__picture--3 {
+      background-image: url(./../../img/divedeep.png);
+      background-size: cover;
+      background-position: 50% 50%; }
   .card__info {
     text-align: center;
     margin: 0 2rem;

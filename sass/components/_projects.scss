@@ -2,8 +2,8 @@
     width: 50vw;
     padding: 3rem;
     border-radius: 3rem;
-    box-shadow: 0 3rem 5rem #007BB8;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    box-shadow: 0 0 3rem #ffff;
+    background-image: linear-gradient(to right, rgba(#003E5C,0.8), rgba(#003E5C,0.8));
     margin: 8rem 0;
 
     &--name {
@@ -24,10 +24,24 @@
     &__picture {
         height: 30rem;
         width: 100%;
-        
-        background-image: url(./../../img/divedeep.png);
-        background-size: cover;
-        background-position: 50% 50%;
+
+        &--1 {
+            background-image: url(./../../img/tanookijames.png);
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+
+        &--2 {
+            background-image: url(./../../img/ucsdcookbook.herokuapp.com_home.html.png);
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+
+        &--3 {
+            background-image: url(./../../img/divedeep.png);
+            background-size: cover;
+            background-position: 50% 50%;
+        }
     }
 
     &__info {
