@@ -127,7 +127,7 @@ body {
   display: flex;
   padding: 8rem 0; }
   .card__picture {
-    height: auto;
+    height: 80%;
     width: 50%; }
     .card__picture img {
       height: 100%;
@@ -139,18 +139,11 @@ body {
   .card__heading {
     font-size: 3rem;
     font-family: 'Merriweather', serif; }
-  .card__tech {
-    font-size: 2rem;
-    font-family: 'Mulish', sans-serif; }
-  .card__list {
-    list-style: none;
-    font-family: 'Mulish', sans-serif; }
-    .card__list li {
-      margin-top: 0.25rem; }
   .card__links {
     font-family: 'Mulish', sans-serif;
     display: flex;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    margin-top: 3rem; }
 
 .nav {
   text-align: center;

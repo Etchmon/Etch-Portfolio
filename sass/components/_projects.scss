@@ -22,7 +22,7 @@
     padding: 8rem 0;
 
     &__picture {
-        height: auto;
+        height: 80%;
         width: 50%;
 
         img {
@@ -43,23 +43,10 @@
         font-family: 'Merriweather', serif;
     }
 
-    &__tech {
-        font-size: 2rem;
-        font-family: 'Mulish', sans-serif;
-    }
-
-    &__list {
-        list-style: none;
-        font-family: 'Mulish', sans-serif;
-
-        li {
-            margin-top: 0.25rem;
-        }
-    }
-
     &__links {
         font-family: 'Mulish', sans-serif;
         display: flex;
         justify-content: space-evenly;
+        margin-top: 3rem;
     }
 }
