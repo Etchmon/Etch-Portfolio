@@ -144,6 +144,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 3rem; }
+  .card__description {
+    font-size: 1.5rem; }
 
 .nav {
   text-align: center;
@@ -187,6 +189,24 @@ body {
     padding: 1.5rem 3rem;
     position: relative;
     z-index: 100; }
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .5rem;
+  position: relative;
+  transition: all .2s;
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: bold;
+  border-bottom: 1px solid;
+  cursor: pointer; }
+
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem #fff;
+  background-color: #007BB8;
+  border: none; }
 
 .footer {
   text-align: center;
@@ -279,7 +299,8 @@ body {
     .header__nav--link {
       text-decoration: none;
       font-size: 1.5rem;
-      color: white; }
+      color: white;
+      border-bottom: 1px solid; }
 
 .container {
   height: 100%; }
