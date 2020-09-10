@@ -131,7 +131,11 @@ body {
     width: 50%; }
     .card__picture img {
       height: 100%;
-      width: 100%; }
+      width: 100%;
+      filter: brightness(0.7);
+      transition: all .5s; }
+    .card__picture img:hover {
+      filter: none; }
   .card__info {
     text-align: center;
     margin-left: 2rem;
