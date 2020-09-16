@@ -6,6 +6,11 @@
     background-image: linear-gradient(to right, rgba(#011926,0.8), rgba(#011926,0.8));
     margin: 8rem 0;
 
+    @include respond(phone) { // width < 600
+        width: 100%;
+        text-align: center;
+    }
+
     &__name {
         font-size: 3rem;
         font-family: 'Merriweather', serif;

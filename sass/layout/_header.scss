@@ -18,6 +18,13 @@
     &__box {
         text-align: center;
         padding: 15rem 0 25rem 35%;
+
+        @include respond(phone ) { // width < 600
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            padding: 50% 0;
+        }
     }
 
     &__nav {
@@ -27,11 +34,16 @@
         list-style: none;
         font-family: 'Mulish', sans-serif;
 
+        @include respond(tab-port) { // width < 900
+            margin: 0;
+        }
+
         &--link {
             text-decoration: none;
             font-size: 1.5rem;
             color: white;
             border-bottom: 1px solid;
+            display: inline-block;
         }
     }
 }

@@ -1,5 +1,10 @@
 .container {
     height: 100%;
+
+    @include respond(tab-land) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .sidebar {
@@ -8,6 +13,13 @@
     height: 100%;
     width: 12%;
     background-color: #011926;
+
+    @include respond(tab-land) {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .content {
@@ -18,6 +30,10 @@
     overflow: auto;
     color: white;
     scroll-behavior: smooth;
+
+    @include respond(tab-land) {
+        width: 100%;
+    }
 }
 
 .content:before {
@@ -30,6 +46,9 @@
     background-size: cover;
     background-position: 50% 50%;
 
+    @include respond(phone) { 
+        background-position: 40% 50%;
+    }
 }
 
 .main-content {
