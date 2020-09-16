@@ -125,7 +125,8 @@ body {
 
 .card {
   display: flex;
-  padding: 8rem 0; }
+  padding: 8rem 0;
+  align-items: center; }
   .card__picture {
     height: 80%;
     width: 50%; }
