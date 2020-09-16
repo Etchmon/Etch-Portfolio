@@ -323,7 +323,8 @@ body {
   height: 100%;
   width: 88%;
   overflow: auto;
-  color: white; }
+  color: white;
+  scroll-behavior: smooth; }
 
 .content:before {
   content: "";
